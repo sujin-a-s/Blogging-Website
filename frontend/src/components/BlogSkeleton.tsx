@@ -1,6 +1,4 @@
-import React from 'react'
-import { Avatar } from './BlogCard'
-import Appbar from './Appbar'
+
 
 const BlogSkeleton = () => {
   return (

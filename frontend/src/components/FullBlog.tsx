@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Appbar from './Appbar'
 import { Blog } from '../hooks/useBlogs'
 import { Avatar } from './BlogCard'

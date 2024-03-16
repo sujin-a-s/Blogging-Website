@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useBlog } from '../hooks/useBlogs'
 import FullBlog from '../components/FullBlog'
 import { useParams } from 'react-router-dom'

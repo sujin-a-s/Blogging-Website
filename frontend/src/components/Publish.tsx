@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from 'react'
+import  { ChangeEvent } from 'react';
 import Appbar from './Appbar'
 import { BACKEND_URL } from '../config'
 import axios from 'axios'
@@ -40,7 +40,13 @@ const Publish = () => {
 export default Publish
 
 
-function TextEditor ({onChange} : {onChange : (e: ChangeEvent<HTMLTextAreaElement>)=>void}) {
+
+interface TextEditorProps {
+    onChange: (e: ChangeEvent<HTMLTextAreaElement>) => void;
+}
+
+
+function TextEditor ({onChange} : TextEditorProps) {
     return (
         
     <form>
